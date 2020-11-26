@@ -12,8 +12,8 @@ public class ExprLogica implements Expression{
     String getExpr(){
         return expr;
     }
-    public String toString(String expr){
-        return expr;
+    public String toString(){
+        return "Expressao Logica";
     }
     public String avaliar(String expr){
         int tam = expr.length();
