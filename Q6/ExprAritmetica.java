@@ -13,8 +13,8 @@ public class ExprAritmetica implements Expression {
         return expr;
     }
 
-    public String toString(String expr){
-        return expr;
+    public String toString(){
+        return "Expressao Aritmetica";
     }
 
     public String avaliar(String expr) {
